@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label323 = new System.Windows.Forms.Label();
             this.NameTextBox = new System.Windows.Forms.TextBox();
             this.SurnameTextBox = new System.Windows.Forms.TextBox();
             this.LogInButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label323 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -50,8 +50,41 @@
             this.panel1.Controls.Add(this.NameTextBox);
             this.panel1.Location = new System.Drawing.Point(2, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(718, 242);
+            this.panel1.Size = new System.Drawing.Size(649, 242);
             this.panel1.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(220, 94);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(188, 24);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Welcome to Algotech";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 28.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(213)))));
+            this.label2.Location = new System.Drawing.Point(42, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(558, 55);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Algotech Login Screen";
+            // 
+            // label323
+            // 
+            this.label323.AutoSize = true;
+            this.label323.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label323.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(213)))));
+            this.label323.Location = new System.Drawing.Point(131, 142);
+            this.label323.Name = "label323";
+            this.label323.Size = new System.Drawing.Size(72, 29);
+            this.label323.TabIndex = 1;
+            this.label323.Text = "Name";
             // 
             // NameTextBox
             // 
@@ -95,17 +128,6 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // label323
-            // 
-            this.label323.AutoSize = true;
-            this.label323.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label323.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(213)))));
-            this.label323.Location = new System.Drawing.Point(131, 142);
-            this.label323.Name = "label323";
-            this.label323.Size = new System.Drawing.Size(72, 29);
-            this.label323.TabIndex = 1;
-            this.label323.Text = "Name";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -116,28 +138,6 @@
             this.label1.Size = new System.Drawing.Size(101, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "Surname";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 28.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(213)))));
-            this.label2.Location = new System.Drawing.Point(43, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(558, 55);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Algotech Login Screen";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(190, 97);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(188, 24);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Welcome to Algotech";
             // 
             // LoginScreen
             // 

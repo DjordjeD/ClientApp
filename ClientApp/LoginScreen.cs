@@ -29,9 +29,11 @@ namespace ClientApp
         {
             string name = NameTextBox.Text.ToString();
             string surname = SurnameTextBox.Text.ToString();
-            //name = name + surname;
+   
             client.BaseAddress = new Uri("http://localhost:60836/WebService1.asmx/");
             HttpResponseMessage result = client.GetAsync("Find?name=" + name +"&surname="+surname+"").Result;
+            //calls an asyhnchronous call to server
+
 
             string information = result.Content.ReadAsStringAsync().Result;
            // MessageBox.Show(information);
